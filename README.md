@@ -7,7 +7,7 @@
 * [X] `setTimeout` Function
 * [X] High Order Functions
 * [X] `setInterval` Function
-* [ ] Node and the Filesystem (`fs`)
+* [X] Node and the Filesystem (`fs`)
 
 ## Synchronous
 
