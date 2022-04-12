@@ -10,15 +10,15 @@ const highOrderFunction = (callbackFunction) => {
     setTimeout(() => {
         data.foods.push('Sushi');
         console.log('3) Inside highOrderFunction setTimeout.', data);
-        callbackFunction();
+        callbackFunction(data);
     }, 3000);
 
     console.log('4) After highOrderFunction setTimeout.', data);
 };
 
 console.log('5) Before highOrderFunction executes.');
-highOrderFunction(() => {
-    console.log('6) Inside callback function.');
+highOrderFunction((data) => {
+    console.log('6) Inside callback function. Updated data is:', data);
 });
 console.log('7) Before highOrderFunction executes.');
 
