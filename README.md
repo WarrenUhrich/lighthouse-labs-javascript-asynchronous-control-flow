@@ -1,6 +1,6 @@
 # Lighthouse Labs | Asynchronous Control Flow
 
-[GitHub Repo and Branch](https://github.com/WarrenUhrich/lighthouse-labs-javascript-asynchronous-control-flow/tree/2022.04.12-web-flex-mar-21-day-javascript-asynchronous-control-flow)
+[GitHub Repo and Branch](https://github.com/WarrenUhrich/lighthouse-labs-javascript-asynchronous-control-flow/tree/2022.04.12-web-flex-mar-21-day-javascript-asynchronous-control-flow) | [Vimeo Video](https://vimeo.com/698753707/8a33bb3bf9)
 
 Today is a day about experimentation. Ask questions, run code, and see what happens! Tweak the code, make a change, and run it again. See if you're able to predict the output, and explore the why behind the actual output you encounter.
 
