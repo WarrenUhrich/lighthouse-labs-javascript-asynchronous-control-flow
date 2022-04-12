@@ -4,7 +4,8 @@
 
 * [X] Synchronous and Asynchronous Code
 * [X] Blocking and Non-Blocking Code
-* [ ] `setTimeout` Function
+* [X] `setTimeout` Function
+* [ ] High Order Functions
 * [ ] `setInterval` Function
 * [ ] Node and the Filesystem (`fs`)
 
@@ -19,3 +20,10 @@ Typically considered "BLOCKING", as the next line won't run until the current st
 Code that won't necessarily run in the order it was written.
 
 "NON-BLOCKING" in that next lines can run right away after an asynchronous instruction is registered.
+
+## High Order Functions
+
+A function that does one of, or both of:
+
+1. Accepts a function as a parameter.
+2. Returns a function as a response.
