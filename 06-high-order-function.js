@@ -12,16 +12,20 @@ const highOrderFunction = (callbackFunction) => {
 
     setTimeout(() => {
         console.log('3) highOrder setTimeout started!');
-        callbackFunction();
+        data.pets.push({name: 'Pollo', type: 'Dog'});
+        console.log('4) highOrder setTimeout after push!', data);
+        callbackFunction(data);
     }, 3000);
 
-    console.log('4) highOrderFunction AFTER setTimeout.');
+    console.log('5) highOrderFunction AFTER setTimeout.', data);
+
+    return data;
 };
 
-console.log('5) Before RUNNING highOrderFunction...');
-highOrderFunction(() => {
-    console.log('6) Running callback!');
+console.log('6) Before RUNNING highOrderFunction...');
+const highOrderData = highOrderFunction((data) => {
+    console.log('7) Running callback!', data);
 });
-console.log('7) After RUNNING highOrderFunction.');
+console.log('8) After RUNNING highOrderFunction.', highOrderData);
 
-console.log('8) End of script.');
+console.log('9) End of script.');
