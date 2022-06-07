@@ -5,7 +5,7 @@
 * [X] Synchronous and Asynchronous Code
 * [X] Blocking and Non-Blocking Code
 * [X] `setTimeout` Function
-* [ ] High Order Functions
+* [X] High Order Functions
 * [ ] `setInterval` Function
 * [ ] Node and the Filesystem (`fs`)
 
