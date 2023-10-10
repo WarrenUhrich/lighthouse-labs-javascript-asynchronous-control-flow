@@ -1,6 +1,6 @@
 # Lighthouse Labs | Asynchronous Control Flow
 
-[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-javascript-asynchronous-control-flow/tree/2023.10.10-web-flex-day-18sept2023) | [Vimeo Video Recording (Coming Soon!)](#coming-soon)
+[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-javascript-asynchronous-control-flow/tree/2023.10.10-web-flex-day-18sept2023) | [Vimeo Video Recording](https://vimeo.com/873060442/d07b107a66?share=copy)
 
 * [X] Synchronous and Asynchronous Code
 * [X] Blocking and Non-Blocking Code
