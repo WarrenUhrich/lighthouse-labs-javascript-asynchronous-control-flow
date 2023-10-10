@@ -3,9 +3,11 @@ console.log('1) Beginning of script.');
 setTimeout(() => {
     console.log('2) 50ms passed.');
 
+    // console.log('3.0 ---> Before timeout');
     setTimeout(() => {
         console.log('3) 100ms (nested in 50ms.)');
     }, 100);
+    // console.log('3.5 ---> After timeout')
 }, 50);
 
 setTimeout(() => {
