@@ -1,0 +1,4 @@
+Hello, World!
+We are writing to this document from our NodeJS script.
+
+Neato! This was written synchronously. 😲
